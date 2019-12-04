@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>messaging on Friedrich Doku</title>
+    <link>http://fdoku.me/tags/messaging/</link>
+    <description>Recent content in messaging on Friedrich Doku</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Mutex Unlocked</copyright>
+    <lastBuildDate>Thu, 18 Apr 2019 02:01:58 +0530</lastBuildDate>
+    
+	<atom:link href="http://fdoku.me/tags/messaging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zephyr: Hiding Memory in a Messaging System</title>
+      <link>http://fdoku.me/posts/zephyr/</link>
+      <pubDate>Thu, 18 Apr 2019 02:01:58 +0530</pubDate>
+      
+      <guid>http://fdoku.me/posts/zephyr/</guid>
+      <description>Private messaging over internet related services is difficult to implement. Regular end-to-end encryption messaging systems are prone to man in the middle attacks and only hide messages but not the identity of its users. For example, WhatsApp offers a strong privacy guarantee but does not hide much Metadata because it uses end-to-end encryption. Other messaging systems such as Skype can be monitored by government agencies and have backdoors implemented into its software.</description>
+    </item>
+    
+  </channel>
+</rss>

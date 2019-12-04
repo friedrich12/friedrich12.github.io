@@ -78,52 +78,52 @@
 <h3 id="header-3">Header 3</h3>
 
 <p>Nulla libero turpis, lacinia vitae cursus ut, auctor dictum nisl. Fusce varius felis nec sem ullamcorper, at convallis nisi vestibulum. Duis risus odio, porta sit amet placerat mollis, tincidunt non mauris. Suspendisse fringilla, <code>odio a dignissim pharetra</code>, est urna sollicitudin urna, eu scelerisque magna ex vitae tellus.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#586e75">/* PostCSS code */</span>
+<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#93a1a1;font-style:italic">/* PostCSS code */</span>
 
-<span style="color:#268bd2">pre</span> {
-  <span style="color:#719e07">background</span>: <span style="color:#2aa198">#1a1a1d</span>;
-  <span style="color:#719e07">padding</span>: <span style="color:#2aa198">20</span><span style="color:#dc322f">px</span>;
-  <span style="color:#719e07">border-radius</span>: <span style="color:#2aa198">8</span><span style="color:#dc322f">px</span>;
-  <span style="color:#719e07">font-size</span>: <span style="color:#2aa198">1</span><span style="color:#dc322f">rem</span>;
-  <span style="color:#719e07">overflow</span>: <span style="color:#cb4b16">auto</span>;
+<span style="color:#268bd2;font-weight:bold">pre</span> {
+  <span style="color:#859900">background</span>: <span style="color:#2aa198;font-weight:bold">#1a1a1d</span>;
+  <span style="color:#859900">padding</span>: <span style="color:#2aa198;font-weight:bold">20</span><span style="color:#859900;font-weight:bold">px</span>;
+  <span style="color:#859900">border-radius</span>: <span style="color:#2aa198;font-weight:bold">8</span><span style="color:#859900;font-weight:bold">px</span>;
+  <span style="color:#859900">font-size</span>: <span style="color:#2aa198;font-weight:bold">1</span><span style="color:#859900;font-weight:bold">rem</span>;
+  <span style="color:#859900">overflow</span>: <span style="color:#859900;font-weight:bold">auto</span>;
 
-  <span style="color:#719e07">@media (--phone) {</span>
-    <span style="color:#719e07">white-space</span>: <span style="color:#cb4b16">pre</span><span style="color:#719e07">-</span><span style="color:#cb4b16">wrap</span>;
-    <span style="color:#719e07">word-wrap</span>: <span style="color:#cb4b16">break-word</span>;
+  <span style="color:#93a1a1;font-style:italic">@media (--phone) {</span>
+    <span style="color:#859900">white-space</span>: <span style="color:#859900;font-weight:bold">pre</span>-<span style="color:#859900;font-weight:bold">wrap</span>;
+    <span style="color:#859900">word-wrap</span>: <span style="color:#859900;font-weight:bold">break-word</span>;
   }
 
-  <span style="color:#268bd2">code</span> {
-    <span style="color:#719e07">background</span>: <span style="color:#cb4b16">none</span> <span style="color:#719e07">!important</span>;
-    <span style="color:#719e07">color</span>: <span style="color:#2aa198">#ccc</span>;
-    <span style="color:#719e07">padding</span>: <span style="color:#2aa198">0</span>;
-    <span style="color:#719e07">font-size</span>: <span style="color:#cb4b16">inherit</span>;
+  <span style="color:#268bd2;font-weight:bold">code</span> {
+    <span style="color:#859900">background</span>: <span style="color:#859900;font-weight:bold">none</span> <span style="color:#93a1a1;font-style:italic">!important</span>;
+    <span style="color:#859900">color</span>: <span style="color:#2aa198;font-weight:bold">#ccc</span>;
+    <span style="color:#859900">padding</span>: <span style="color:#2aa198;font-weight:bold">0</span>;
+    <span style="color:#859900">font-size</span>: <span style="color:#859900;font-weight:bold">inherit</span>;
   }
-}</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#586e75">// JS code
-</span><span style="color:#586e75"></span>
-<span style="color:#719e07">const</span> menuTrigger <span style="color:#719e07">=</span> <span style="color:#b58900">document</span>.querySelector(<span style="color:#2aa198">&#39;.menu-trigger&#39;</span>)
-<span style="color:#719e07">const</span> menu <span style="color:#719e07">=</span> <span style="color:#b58900">document</span>.querySelector(<span style="color:#2aa198">&#39;.menu&#39;</span>)
-<span style="color:#719e07">const</span> mobileQuery <span style="color:#719e07">=</span> getComputedStyle(<span style="color:#b58900">document</span>.body).getPropertyValue(<span style="color:#2aa198">&#39;--phoneWidth&#39;</span>)
-<span style="color:#719e07">const</span> isMobile <span style="color:#719e07">=</span> () =&gt; <span style="color:#b58900">window</span>.matchMedia(mobileQuery).matches
-<span style="color:#719e07">const</span> isMobileMenu <span style="color:#719e07">=</span> () =&gt; {
-  menuTrigger.classList.toggle(<span style="color:#2aa198">&#39;hidden&#39;</span>, <span style="color:#719e07">!</span>isMobile())
-  menu.classList.toggle(<span style="color:#2aa198">&#39;hidden&#39;</span>, isMobile())
+}</code></pre></div><div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#93a1a1;font-style:italic">// JS code
+</span><span style="color:#93a1a1;font-style:italic"></span>
+<span style="color:#859900">const</span> <span style="color:#268bd2">menuTrigger</span> = <span style="color:#cb4b16">document</span>.<span style="color:#268bd2">querySelector</span>(<span style="color:#2aa198">&#39;.menu-trigger&#39;</span>)
+<span style="color:#859900">const</span> <span style="color:#268bd2">menu</span> = <span style="color:#cb4b16">document</span>.<span style="color:#268bd2">querySelector</span>(<span style="color:#2aa198">&#39;.menu&#39;</span>)
+<span style="color:#859900">const</span> <span style="color:#268bd2">mobileQuery</span> = <span style="color:#268bd2">getComputedStyle</span>(<span style="color:#cb4b16">document</span>.<span style="color:#268bd2">body</span>).<span style="color:#268bd2">getPropertyValue</span>(<span style="color:#2aa198">&#39;--phoneWidth&#39;</span>)
+<span style="color:#859900">const</span> <span style="color:#268bd2">isMobile</span> = () =&gt; <span style="color:#cb4b16">window</span>.<span style="color:#268bd2">matchMedia</span>(<span style="color:#268bd2">mobileQuery</span>).<span style="color:#268bd2">matches</span>
+<span style="color:#859900">const</span> <span style="color:#268bd2">isMobileMenu</span> = () =&gt; {
+  <span style="color:#268bd2">menuTrigger</span>.<span style="color:#268bd2">classList</span>.<span style="color:#268bd2">toggle</span>(<span style="color:#2aa198">&#39;hidden&#39;</span>, !<span style="color:#268bd2">isMobile</span>())
+  <span style="color:#268bd2">menu</span>.<span style="color:#268bd2">classList</span>.<span style="color:#268bd2">toggle</span>(<span style="color:#2aa198">&#39;hidden&#39;</span>, <span style="color:#268bd2">isMobile</span>())
 }
 
-isMobileMenu()
+<span style="color:#268bd2">isMobileMenu</span>()
 
-menuTrigger.addEventListener(<span style="color:#2aa198">&#39;click&#39;</span>, () =&gt; menu.classList.toggle(<span style="color:#2aa198">&#39;hidden&#39;</span>))
+<span style="color:#268bd2">menuTrigger</span>.<span style="color:#268bd2">addEventListener</span>(<span style="color:#2aa198">&#39;click&#39;</span>, () =&gt; <span style="color:#268bd2">menu</span>.<span style="color:#268bd2">classList</span>.<span style="color:#268bd2">toggle</span>(<span style="color:#2aa198">&#39;hidden&#39;</span>))
 
-<span style="color:#b58900">window</span>.addEventListener(<span style="color:#2aa198">&#39;resize&#39;</span>, isMobileMenu)
-</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#586e75">&lt;!-- HTML code --&gt;</span>
+<span style="color:#cb4b16">window</span>.<span style="color:#268bd2">addEventListener</span>(<span style="color:#2aa198">&#39;resize&#39;</span>, <span style="color:#268bd2">isMobileMenu</span>)
+</code></pre></div><div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#93a1a1;font-style:italic">&lt;!-- HTML code --&gt;</span>
 
-&lt;<span style="color:#268bd2">section</span> id<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;main&#34;</span>&gt;
-  &lt;<span style="color:#268bd2">div</span>&gt;
-   &lt;<span style="color:#268bd2">h1</span> id<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#268bd2">h1</span>&gt;
+&lt;<span style="color:#268bd2;font-weight:bold">section</span> <span style="color:#268bd2">id</span>=<span style="color:#2aa198">&#34;main&#34;</span>&gt;
+  &lt;<span style="color:#268bd2;font-weight:bold">div</span>&gt;
+   &lt;<span style="color:#268bd2;font-weight:bold">h1</span> <span style="color:#268bd2">id</span>=<span style="color:#2aa198">&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#268bd2;font-weight:bold">h1</span>&gt;
     {{ range .Pages }}
       {{ .Render &#34;summary&#34;}}
     {{ end }}
-  &lt;/<span style="color:#268bd2">div</span>&gt;
-&lt;/<span style="color:#268bd2">section</span>&gt;</code></pre></div>
+  &lt;/<span style="color:#268bd2;font-weight:bold">div</span>&gt;
+&lt;/<span style="color:#268bd2;font-weight:bold">section</span>&gt;</code></pre></div>
 <h4 id="header-4">Header 4</h4>
 
 <p>Curabitur scelerisque felis viverra varius scelerisque. Ut enim libero, molestie gravida blandit at, mollis ornare tellus. Cras arcu mi, ultrices vel pulvinar vel, volutpat eu tortor. Nullam nec eros quis massa ultrices iaculis sed in metus. Praesent sollicitudin sem sit amet orci tempor gravida.</p>
