@@ -31,6 +31,16 @@
     </item>
     
     <item>
+      <title>Zephyr: Hiding Memory in a Messaging System</title>
+      <link>http://fdoku.me/posts/paging/</link>
+      <pubDate>Tue, 16 Apr 2019 02:01:58 +0530</pubDate>
+      
+      <guid>http://fdoku.me/posts/paging/</guid>
+      <description>Why do we need paging? In operating systems paging is used to elimiate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
+Just look at figure 1. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs.</description>
+    </item>
+    
+    <item>
       <title>Showcase</title>
       <link>http://fdoku.me/showcase/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>

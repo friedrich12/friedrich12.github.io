@@ -43,6 +43,23 @@
   </url>
   
   <url>
+    <loc>http://fdoku.me/posts/paging/</loc>
+    <lastmod>2019-04-16T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fdoku.me/tags/opearting-systems/</loc>
+    <lastmod>2019-04-16T02:01:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fdoku.me/tags/union/</loc>
+    <lastmod>2019-04-16T02:01:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://fdoku.me/showcase/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
   </url>
