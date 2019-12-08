@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Operating Systems Concepts: Paging</title>
+      <link>http://fdoku.me/posts/paging/</link>
+      <pubDate>Wed, 18 Sep 2019 02:01:58 +0530</pubDate>
+      
+      <guid>http://fdoku.me/posts/paging/</guid>
+      <description>Why do we need paging? In operating systems paging is used to elimiate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
+Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://fdoku.me/about/</link>
       <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
@@ -37,16 +47,6 @@
       
       <guid>http://fdoku.me/showcase/</guid>
       <description>Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.</description>
-    </item>
-    
-    <item>
-      <title>Operating Systems Concepts: Paging</title>
-      <link>http://fdoku.me/posts/paging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fdoku.me/posts/paging/</guid>
-      <description>Why do we need paging? In operating systems paging is used to elimiate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
-Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs.</description>
     </item>
     
   </channel>

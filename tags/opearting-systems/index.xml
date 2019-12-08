@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Mutex Unlocked</copyright>
+    <lastBuildDate>Wed, 18 Sep 2019 02:01:58 +0530</lastBuildDate>
     
 	<atom:link href="http://fdoku.me/tags/opearting-systems/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>Operating Systems Concepts: Paging</title>
       <link>http://fdoku.me/posts/paging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Sep 2019 02:01:58 +0530</pubDate>
       
       <guid>http://fdoku.me/posts/paging/</guid>
       <description>Why do we need paging? In operating systems paging is used to elimiate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
