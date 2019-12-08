@@ -18,7 +18,7 @@
       <pubDate>Wed, 18 Sep 2019 02:01:58 +0530</pubDate>
       
       <guid>http://fdoku.me/posts/paging/</guid>
-      <description>Why do we need paging? In operating systems paging is used to elimiate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
+      <description>Why do we need paging? In operating systems paging is used to eliminate the need for contigous physical memory. By using virtual memory with paging we can use blocks in the computer&amp;rsquo;s physical memory instead of using a contigous section. But still why does this matter?
 Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs.</description>
     </item>
     

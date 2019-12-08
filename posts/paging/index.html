@@ -31,7 +31,7 @@
 		<div class="header">
 	<h1 class="site-title"><a href="http://fdoku.me/">Friedrich Doku</a></h1>
 	<div class="site-description"><h2>Projects and Publications</h2><nav class="nav social">
-			<ul class="flat"><a href="https://github.com/friedrich12" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a></ul>
+			<ul class="flat"><a href="https://github.com/friedrich12" title="Github"><i data-feather="github"></i></a></ul>
 		</nav>
 	</div>
 
@@ -65,19 +65,19 @@
 		</div>
 
 		<div class="markdown">
-			<p>Why do we need paging? In operating systems paging is used to elimiate the need for
+			<p>Why do we need paging? In operating systems paging is used to eliminate the need for
 contigous physical memory. By using virtual memory with paging we can use blocks in the
 computer&rsquo;s physical memory instead of using a contigous section. But still why does this matter?</p>
 
 <p><img src="/img/paging1.png" alt="Example image" /></p>
 
-<p>Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs. For example, if we allocate 4MB of memory for a text editor but later we find that our text editor is only using 2MB of memory we need to free the memory it is not using. Without paging the only way to free the memeory is to kill the whole program, which is not what we want to do.</p>
+<p>Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs. For example, if we allocate 4MB of memory for a text editor but later we find that our text editor is only using 2MB of memory we need to free the memory it is not using. Without paging the only way to free the memory is to kill the whole program, which is not what we want to do.</p>
 
-<p>// Example here</p>
+<p><img src="/img/paging2.png" alt="Example image" /></p>
 
-<p>With paging we can allocate blocks of memory and place them in different sections in the computer&rsquo;s physical memory, thus, the memory need not be contigous.</p>
+<p>With paging we can allocate blocks of memory and place them in different sections of the computer&rsquo;s physical memory, thus, the memory need not be contigous. The memory block on the left is the applications virtual memory. To the application this is a contigous block of memory but to the operating system these are seperate blocks of the computer&rsquo;s physical memory. Each virtual memory block has been mapped to a physical memory block. Each virtual memory block is called a page.</p>
 
-<p><a href="https://arxiv.org/abs/1910.13337" title="Publication">Publication</a></p>
+<p>In the end paging enables us to run more programs.</p>
 
 		</div>
 
