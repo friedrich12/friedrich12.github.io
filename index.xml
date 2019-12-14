@@ -37,7 +37,9 @@ Just look at figure above. If we only use contingous blocks of memory we might b
       <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
       <guid>http://fdoku.me/about/</guid>
-      <description>This is some static page where you can write about yourself.</description>
+      <description>My name is Friedrich Doku and I am a senior at Irondale High School. I am interested in Embedded Systems development and Distributed Systems. Currently, I am working on Zephyr a secure anonymous messaging system.
+Zephyr
+Email: friedrichdoku@gmail.com</description>
     </item>
     
     <item>
