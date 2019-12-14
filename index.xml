@@ -32,23 +32,23 @@ Just look at figure above. If we only use contingous blocks of memory we might b
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://fdoku.me/about/</link>
-      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
-      
-      <guid>http://fdoku.me/about/</guid>
-      <description>My name is Friedrich Doku and I am a senior at Irondale High School. I am interested in Embedded Systems development and Distributed Systems. Currently, I am working on Zephyr a secure anonymous messaging system.
-Zephyr
-Email: friedrichdoku@gmail.com</description>
-    </item>
-    
-    <item>
       <title>Showcase</title>
       <link>http://fdoku.me/showcase/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>http://fdoku.me/showcase/</guid>
       <description>Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://fdoku.me/about/</link>
+      <pubDate>Thu, 19 Apr 2018 21:37:58 +0530</pubDate>
+      
+      <guid>http://fdoku.me/about/</guid>
+      <description>My name is Friedrich Doku and I am a senior at Irondale High School. I am interested in Embedded Systems development and Distributed Systems. Currently, I am working on Zephyr a secure anonymous messaging system.
+Zephyr
+Email: friedrichdoku@gmail.com</description>
     </item>
     
   </channel>
