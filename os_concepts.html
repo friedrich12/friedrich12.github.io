@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Friedrich Doku</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Friedrich Doku</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Operating Systems Concepts: Paging</h1>
+							<div class="meta" style='margin-top:-30px'>Posted at &mdash; Sep 18, 2019</div>
+							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+						
+								<div class="markdown">
+									<p>Why do we need paging? In operating systems paging is used to eliminate the need for
+						contigous physical memory. By using virtual memory with paging we can use blocks in the
+						computer&rsquo;s physical memory instead of using a contigous section. But still why does this matter?</p>
+						
+						<p><img src="/img/paging1.png" alt="Example image" /></p>
+						
+						<p>Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs. For example, if we allocate 4MB of memory for a text editor but later we find that our text editor is only using 2MB of memory we need to free the memory it is not using. Without paging the only way to free the memory is to kill the whole program, which is not what we want to do.</p>
+						
+						<p><img src="/img/paging2.png" alt="Example image" /></p>
+						
+						<p>With paging we can allocate blocks of memory and place them in different sections of the computer&rsquo;s physical memory, thus, the memory need not be contigous. The memory block on the left is the applications virtual memory. To the application this is a contigous block of memory but to the operating system these are seperate blocks of the computer&rsquo;s physical memory. Each virtual memory block has been mapped to a physical memory block. Each virtual memory block is called a page.</p>
+						
+						<p>In the end paging enables us to run more programs.</p>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
