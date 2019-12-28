@@ -58,11 +58,11 @@
 						contigous physical memory. By using virtual memory with paging we can use blocks in the
 						computer&rsquo;s physical memory instead of using a contigous section. But still why does this matter?</p>
 						
-						<p><img src="/img/paging1.png" alt="Example image" /></p>
+						<p><img src="img/paging1.png" alt="Example image" /></p>
 						
 						<p>Just look at figure above. If we only use contingous blocks of memory we might be taking away memory that can be used to run other programs. For example, if we allocate 4MB of memory for a text editor but later we find that our text editor is only using 2MB of memory we need to free the memory it is not using. Without paging the only way to free the memory is to kill the whole program, which is not what we want to do.</p>
 						
-						<p><img src="/img/paging2.png" alt="Example image" /></p>
+						<p><img src="img/paging2.png" alt="Example image" /></p>
 						
 						<p>With paging we can allocate blocks of memory and place them in different sections of the computer&rsquo;s physical memory, thus, the memory need not be contigous. The memory block on the left is the applications virtual memory. To the application this is a contigous block of memory but to the operating system these are seperate blocks of the computer&rsquo;s physical memory. Each virtual memory block has been mapped to a physical memory block. Each virtual memory block is called a page.</p>
 						
