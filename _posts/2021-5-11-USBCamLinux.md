@@ -3,8 +3,6 @@ layout: post
 title: Capturing Images from USB Camera Using C on Linux
 ---
 
-# Capturing Images from USB Camera Using C on Linux
-
 In this tutorial, I will show you how to capture USB video using the C programming language on Linux. 
 
 
