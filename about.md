@@ -7,7 +7,7 @@ My name is Friedrich Doku, and I am a student at the University of Pittsburgh. I
 
 Current efforts to protect user privacy online have all been built around anonymization and data hiding. I think that corporations need to have an incentive to protect user data. If the incentive is strong enough, corporations will move away from exploiting user data and start protecting user data. Internet users shouldn't have to hide from the internet to avoid things like targeted advertisements.
 
-I think the only solution to this problem involves harmony beteen corporations and users. Corporations should work together with users to keep their data safe in exchange for something. What that something is, I do not know, but there should be a way for corporations to make as much money as they do (or pretty close) without exploiting user data.
+I think the only solution to this problem involves harmony between corporations and users. Corporations should work together with users to keep their data safe in exchange for something. What that something is, I do not know, but there should be a way for corporations to make as much money as they do (or pretty close) without exploiting user data.
 
 ### Contact me
 
