@@ -1,7 +1,3 @@
-# Uboot, Device Trees, and Metal
-
- 
-
 Beginning bare metal development on Arm devices can be challenging becuase there is a lot that you haven't seen before. In this post, I will explain Uboot and Device Trees (DTS). I will also point you to some resources to get you started with development.
 
 
