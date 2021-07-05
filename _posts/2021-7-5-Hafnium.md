@@ -1,4 +1,8 @@
-# Installing Hafnium on PINE64-LTS
+
+---
+layout: post
+title: Installing Hafnium on PINE64-LTS
+---
 
 Hafnium is a type-1 hypervisor that provides memory isolation between the virtual machines that run on top of it. It is installed directly on top of the underlying hardware. In this tutorial, I will be showing how to setup hafnium on the PINE64-LTS. 
 
