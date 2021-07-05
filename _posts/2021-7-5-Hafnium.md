@@ -188,7 +188,7 @@ Now open `BUILD.gn` and add these lines to it.
 "//src:hafnium(:pine64_clang)"
 ```
 
-![Screen Shot 2021-07-03 at 4.05.38 PM](/Users/friedrichdoku/Desktop/Screen Shot 2021-07-03 at 4.05.38 PM.png)
+![Screen Shot 2021-07-03 at 4.05.38 PM](https://fdoku.me/images/h5.png)
 
 Add these lines to the very bottom of the file.
 
