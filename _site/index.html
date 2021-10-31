@@ -16,6 +16,19 @@
 
     
 
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WBHGY5FZD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8WBHGY5FZD');
+    </script>
+	<!-- End Google Analytics -->
+
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -40,6 +53,7 @@
           <nav>
             <a href="/">Blog</a>
             <a href="/about">About</a>
+            <a href="/resume.pdf">Resume</a>
           </nav>
         </header>
       </div>
@@ -50,14 +64,62 @@
   
     <article class="post">
 
-      <h1><a href="/Hello-World/">You're up and running!</a></h1>
+      <h1><a href="/Hafnium/">Installing Hafnium on PINE64-LTS</a></h1>
 
       <div class="entry">
-        <p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
+        <p>Hafnium is a type-1 hypervisor that provides memory isolation between the virtual machines that run on top of it. It is installed directly on top of the underlying hardware. In this tutorial, I will be showing how to setup hafnium on the PINE64-LTS.</p>
 
       </div>
 
-      <a href="/Hello-World/" class="read-more">Read More</a>
+      <a href="/Hafnium/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Metal/">Getting Started With Metal</a></h1>
+
+      <div class="entry">
+        <p>Beginning bare metal development on Arm devices can be challenging becuase there is a lot that you haven’t seen before. In this post, I will explain Uboot and Device Trees (DTS). I will also point you to some resources to get you started with development.</p>
+
+      </div>
+
+      <a href="/Metal/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/USBCamLinux/">Capturing Images from USB Camera Using C on Linux</a></h1>
+
+      <div class="entry">
+        <p>In this tutorial, I will show you how to capture USB video using the C programming language on Linux.</p>
+
+      </div>
+
+      <a href="/USBCamLinux/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/DigtialDreams/">My Digital Dream</a></h1>
+
+      <div class="entry">
+        <p>My dream is of an internet where users are in control of their data, an internet where users will be able to track their data and see how it is used. Accomplishing something like this will be very challenging, but given time and effort, we can become close. The perfect internet may never come to exist, but an internet that is safer and respects privacy more than it does today will.</p>
+
+      </div>
+
+      <a href="/DigtialDreams/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Welcome/">Welcome!</a></h1>
+
+      <div class="entry">
+        <p>Welcome to my new blog! I hope you will join me on my incredible journey.</p>
+
+      </div>
+
+      <a href="/Welcome/" class="read-more">Read More</a>
     </article>
   
 </div>
@@ -82,23 +144,6 @@
         </footer>
       </div>
     </div>
-
-    
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'G-8WBHGY5FZD', 'auto');
-		ga('send', 'pageview', {
-		  'page': '/',
-		  'title': ''
-		});
-	</script>
-	<!-- End Google Analytics -->
-
 
   </body>
 </html>
