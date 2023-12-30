@@ -11,12 +11,11 @@ Enjoy the site.
 
 [frd20@pitt.edu](mailto:frd20@pitt.edu)
 
-Or contact me here 
+OR
+
+Use the below PGP key for [friedrichdoku@gmail.com](mailto:friedrichdoku@gmail.com)
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-
-Comment: 2B1A 42AE FE17 81AB BCB4 A1DF D96D D17A 32AA B935
-Comment: Friedrich Doku friedrichdoku@gmail.com
 
 xjMEZY9wIBYJKwYBBAHaRw8BAQdANNFhw9uJPuq9oFyy8xSL/KICHEbL1bJOZC79
 U6bg1aDNKEZyaWVkcmljaCBEb2t1IDxmcmllZHJpY2hkb2t1QGdtYWlsLmNvbT7C
@@ -28,5 +27,5 @@ AwEIB8J4BBgWCAAgFiEEKxpCrv4Xgau8tKHf2W3RejKquTUFAmWPcCACGwwACgkQ
 2W3RejKquTUVhAD/XX2ftGFTFWkQBJEXX9XVi2YY2TYz3v8AEkPWFZdljkkA/ijt
 Ziic5yHUYnKzFaPhceVBJk4YUfXxAPOUCLkJU6MO
 =awGI
-
 -----END PGP PUBLIC KEY BLOCK-----
+
